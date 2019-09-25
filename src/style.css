@@ -1,0 +1,39 @@
+body {
+  background: white;
+  color: black;
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  font: 20px sans-serif;
+}
+
+.links {
+  font: 30px/28px sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  padding-top: 20px;
+}
+h2 {
+  text-align: inherit;
+}
+
+/* Test 1 */
+.container p:nth-child(3) {
+  color: red;
+  background: black;
+}
+
+/* Test 3 */
+.textblue {
+  color: blue;
+}
+
+/* Test 8 */
+.lastResult {
+  color: white;
+  padding: 3px;
+}
